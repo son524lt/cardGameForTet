@@ -1,0 +1,23 @@
+{
+    "system":{
+        "/": {
+            "name": "indexPage",
+            "url": "./html/index.html"
+        },
+        "pageNotFound": {
+            "name": "pageNotFound",
+            "url": "./html/404.html"
+        },
+        "register": {
+            "name": "register",
+            "url": "./html/register.html"
+        }
+    },
+    "banned":[
+        "/json/",
+        "/server.js",
+        "/modules/",
+        "/node_modules/",
+        "/room.html"
+    ]
+}

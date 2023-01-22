@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/master.css">
+    <title>Card games</title>
+</head>
+<body>
+    <div id="content-box">
+        <form id="joinForm" action="javascript:joinRoom()">
+            <div id="idContent">
+                <select name="mode" id="modeSelect">
+                    <option value="0">Tiến lên</option>
+                    <option value="1">Mèo nổ</option>
+                </select>
+                <select name="action" id="actionSelect">
+                    <option value="0">Tạo phòng</option>
+                    <option value="1">Nhập mã phòng</option>
+                </select>
+                <input id="roomId" placeholder="Mã phòng" type="text">
+            </div>
+            <input id="submitButton" type="submit" value="Vào">
+        </form>
+    </div>
+</body>
+</html>
